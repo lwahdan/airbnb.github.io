@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .header{
+            display: flex;
+            justify-content: space-around;
+            margin: 0 auto;
+            height: 50px;
+            width: 100%;
+            font-size: 20px;
+            align-items: center;
+            font-family: "Airbnb Cereal VF", Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+
+
+        }
+        #icon{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        #imgicon{
+            height: 40px;
+            width: 40px;
+            border: 1px solid black;
+            border-radius: 50%;
+
+        }
+
+        .header div{
+            display: flex;
+            width: 30%;
+            justify-content: center;
+            margin: 0 auto;
+        }
+
+        .search{
+            text-align: center;
+            margin: 20px;
+            overflow: hidden;
+            padding:20px;
+            border-radius: 100px;
+            width: 800px;
+            align-items: center;
+            margin-left: 190px;
+            border: 1px solid gray;
+        }
+
+        .search a{
+            font-size: 17px;
+            padding: 30px 40px;
+            font-size: 20px;
+            color: black;
+            text-decoration: none;
+        }
+
+        .search a:hover{
+            background-color: rgb(199, 203, 207);
+            border-radius: 50px;
+        }
+
+        .search button{
+            border-radius: 100px;
+            padding: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            color: white;
+            background-color: palevioletred;
+        
+        }
+
+        .search button:hover{
+            background-color: pink;
+
+        }
+
+        #imgworld{
+            height: 40px;
+            width: 40px;
+        }
+
+        .activity{
+            justify-content: space-around;
+            display: grid;
+            grid-template-columns: repeat(15,1fr);
+
+        }
+
+        .activity img{
+            height: 24px;
+            width: 24px;
+        }
+
+        .activity span:hover{
+            background-color: lightgray;
+        }
+
+        .icons img{
+            width: 278px;
+            height: 260px;
+            border-radius: 20px;
+            /* object-fit: contain; */
+            
+        }
+
+        .icons{
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            margin-left: 25px;
+            /* display: flex;
+            justify-content: space-between; */
+        
+            }
+        
+    </style>
+</head>
+<body>
+    
+    <div class="header">
+        <div>
+            <img src="/assets/1.png" style="height: 40px; width: 110px;">
+        </div>
+        <div>
+            <a><b>Stays</b></a>&nbsp;&nbsp;&nbsp;
+            <a>Experinces</a>
+        </div>
+        <div id="icon">
+            <p>Airbnb your home</p>
+            <img src="/assets/3.png" id="imgworld">
+            <img src="/assets/2.jpg" id="imgicon">
+        </div>
+    </div>
+
+    <div class="search">
+        <a href="#home">Where</a>
+        <a href="#Check in">Check in</a>
+        
+        <a href="#Check out">Chech out</a>
+        <a href="#Who">Who</a>
+        <button type="submit"><i class="fa fa-search"></i>Search</button>
+    </div>
+    <hr>
+
+    <div class="activity">
+        <span>
+        <img src="/assets/image07.png">
+        <figcaption>Icons</figcaption>
+        </span>
+        <span>
+        <img src="/assets/image08.jpg">
+        <figcaption>Rooms</figcaption>
+        </span>
+        <span>
+        <img src="/assets/image09.jpg">
+        <figcaption>Amazing views</figcaption>
+        </span>
+        <span>
+        <img src="/assets/image10.jpg">
+        <figcaption>Amazing pools</figcaption>
+        </span>
+        <span>
+        <img src="/assets/image11.jpg">
+        <figcaption>Farms</figcaption></span>
+        <span>
+        <img src="/assets/image12.jpg">
+        <figcaption>Surffing</figcaption></span>
+        <span>
+        <img src="/assets/image13.jpg">
+        <figcaption>Cabin</figcaption></span>
+        <span>
+        <img src="/assets/image14.jpg">
+        <figcaption>Sking</figcaption></span>
+        <span>
+        <img src="/assets/image15.jpg">
+        <figcaption>OMG!</figcaption></span>
+        <span>
+        <img src="/assets/image07.png">
+        <figcaption>Icons</figcaption>
+        </span>
+        <span>
+        <img src="/assets/image08.jpg">
+        <figcaption>Rooms</figcaption>
+        </span>
+        <span>
+        <img src="/assets/image09.jpg">
+        <figcaption>Amazing views</figcaption>
+        </span>
+        <span>
+        <img src="/assets/image11.jpg">
+        <figcaption>Farms</figcaption></span>
+        <span>
+        <img src="/assets/image12.jpg">
+        <figcaption>Surffing</figcaption></span>
+        <span>
+        <img src="/assets/image10.jpg">
+        <figcaption>Amazing pools</figcaption>
+        </span>
+    </div>
+
+    <div class="icons">
+        <span>
+            <img src="/assets/a.png">
+            <figcaption>Lorem ipsum dolor sit.<br>Lorem, ipsum.<br>lorem</figcaption>
+        </span>
+        <span>
+            <img src="/assets/b.png">
+            <figcaption>Lorem ipsum dolor sit.<br>Lorem, ipsum.<br>lorem</figcaption>
+        </span>
+        <span>
+            <img src="/assets/c.png">
+            <figcaption>Lorem ipsum dolor sit.<br>Lorem, ipsum.<br>lorem</figcaption>
+        </span>
+        <span>
+            <img src="/assets/d.jpg">
+            <figcaption>Lorem ipsum dolor sit.<br>Lorem, ipsum.<br>lorem</figcaption>
+        </span>
+    </div>
+
+</body>
+</html>
